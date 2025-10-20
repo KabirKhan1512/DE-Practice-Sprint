@@ -1,5 +1,3 @@
-
-```markdown
 # 🧠 Data Engineering Learning Roadmap
 
 Welcome to my **Data Engineering Mastery Repository** — a personal, structured roadmap that documents my journey from practitioner to professional-level Data Engineer.  
@@ -10,25 +8,12 @@ This repo combines **hands-on projects**, **learning plans**, and **theoretical 
 ## 📘 Overview
 
 This repository is designed to:
-- Build **production-ready skills** in Airflow, SQL, Python, and AWS.
-- Strengthen **data engineering theory** beyond tools and syntax.
-- Serve as a **portfolio** of scripts, notes, and projects that reflect real-world data engineering work.
+- Build **production-ready skills** in Airflow, SQL, Python, and AWS
+- Strengthen **data engineering theory** beyond tools and syntax
+- Serve as a **portfolio** of scripts, notes, and projects that reflect real-world data engineering work
 
 ---
 
-## 🗂️ Structure
-
-```
-
-📦 data-engineering-roadmap/
-│
-├── airflow/                # Airflow DAGs, notes, and AWS deployment steps
-├── python/                 # Python scripts & ETL practice for data pipelines
-├── sql/                    # SQL transformations, ETL scripts, and warehouse models
-├── theory/                 # Data engineering theory notes & concepts
-└── README.md               # This file
-
-```
 
 ---
 
@@ -37,11 +22,11 @@ This repository is designed to:
 **Goal:** Master workflow orchestration and automation using Airflow in Docker and AWS.
 
 ### Key Topics:
-- DAG design and scheduling fundamentals  
-- Sensors, Hooks, XComs, and custom operators  
-- Airflow architecture (scheduler, executor, metadata DB)  
-- Connections and secrets management  
-- Integrating with AWS S3 and Snowflake  
+- DAG design and scheduling fundamentals
+- Sensors, Hooks, XComs, and custom operators
+- Airflow architecture (scheduler, executor, metadata DB)
+- Connections and secrets management
+- Integrating with AWS S3 and Snowflake
 - CI/CD and DAG deployment on Amazon MWAA
 
 ### Outcome:
@@ -62,7 +47,7 @@ By the end, you can design and deploy **production-grade DAGs** for batch or str
 - Connecting Python with Airflow, AWS, and databases
 
 ### Outcome:
-You’ll build **modular, fault-tolerant ETL jobs** in Python that integrate smoothly with orchestration systems and data warehouses.
+You'll build **modular, fault-tolerant ETL jobs** in Python that integrate smoothly with orchestration systems and data warehouses.
 
 ---
 
@@ -71,27 +56,27 @@ You’ll build **modular, fault-tolerant ETL jobs** in Python that integrate smo
 **Goal:** Move beyond CRUD into real analytical and pipeline SQL.
 
 ### Highlights:
-- CTE pipelines and transaction-safe ETL  
-- Advanced JOIN logic and CASE-based transformations  
-- Window functions for analytical reporting  
-- Dimensional modeling, star/snowflake schemas  
-- MERGE-based incremental loads (SCD Type 2)  
+- CTE pipelines and transaction-safe ETL
+- Advanced JOIN logic and CASE-based transformations
+- Window functions for analytical reporting
+- Dimensional modeling, star/snowflake schemas
+- MERGE-based incremental loads (SCD Type 2)
 - Query tuning, indexing, and optimization
 
 ### Theory Reinforcement:
-- Query execution plans & cost-based optimization  
-- OLTP vs OLAP schema design  
-- Fact, Dimension, and Bridge table concepts  
-- Normalization vs Denormalization trade-offs  
+- Query execution plans & cost-based optimization
+- OLTP vs OLAP schema design
+- Fact, Dimension, and Bridge table concepts
+- Normalization vs Denormalization trade-offs
 
 ### Outcome:
-You’ll be able to **design, populate, and optimize data warehouse models** with professional-level SQL.
+You'll be able to **design, populate, and optimize data warehouse models** with professional-level SQL.
 
 ---
 
 ## 🧱 4. Core Data Engineering Theory
 
-**Goal:** Understand the architectural and systemic foundations of data engineering — the “why” behind every tool.
+**Goal:** Understand the architectural and systemic foundations of data engineering — the "why" behind every tool.
 
 ### Key Domains:
 
@@ -106,23 +91,23 @@ You’ll be able to **design, populate, and optimize data warehouse models** wit
 - Data Vault, normalization, and schema evolution
 
 #### ☁️ Cloud & Distributed Systems
-- Partitioning, replication, and consistency models  
+- Partitioning, replication, and consistency models
 - Object storage design (S3, ADLS, GCS)
 - Data pipeline deployment on AWS (Lambda, MWAA, Snowflake integration)
 
 #### 🧠 Data Processing & Ingestion
-- Batch vs streaming  
-- CDC (Change Data Capture) concepts  
+- Batch vs streaming
+- CDC (Change Data Capture) concepts
 - Event-driven pipelines (Kafka/Kinesis fundamentals)
 
 #### 🔐 Governance & Quality
-- Data lineage, metadata management, and validation frameworks  
+- Data lineage, metadata management, and validation frameworks
 - Data privacy, RBAC, encryption, and compliance models
 
 #### 🧰 Workflow & Versioning
-- DataOps principles  
-- Pipeline CI/CD  
-- Testing and monitoring data reliability  
+- DataOps principles
+- Pipeline CI/CD
+- Testing and monitoring data reliability
 
 ### Outcome:
 Deep understanding of **how large-scale data systems are architected, governed, and optimized.**
@@ -137,17 +122,17 @@ After completing the individual modules, the final step is an **end-to-end data 
 > *"Serverless Currency Exchange Rate ETL Pipeline"*
 
 ### Tools:
-- Python Lambda for ingestion  
-- S3 for data lake staging  
-- Snowflake for warehouse  
-- Airflow DAG for orchestration  
-- SQL-based transformation with SCD logic  
+- Python Lambda for ingestion
+- S3 for data lake staging
+- Snowflake for warehouse
+- Airflow DAG for orchestration
+- SQL-based transformation with SCD logic
 
 ### Goals:
-- Automated ingestion from API  
-- Incremental load logic (CDC/SCD2)  
-- Scheduled pipeline orchestration  
-- Monitoring & alerting integration  
+- Automated ingestion from API
+- Incremental load logic (CDC/SCD2)
+- Scheduled pipeline orchestration
+- Monitoring & alerting integration
 
 ---
 
@@ -167,21 +152,21 @@ After completing the individual modules, the final step is an **end-to-end data 
 
 ## 🎯 Learning Philosophy
 
-> “Data Engineering is not just about moving data.  
-> It’s about **designing trust, scalability, and insight into every dataset**.”
+> "Data Engineering is not just about moving data.  
+> It's about **designing trust, scalability, and insight into every dataset**."
 
 This repo follows these principles:
-- **Learn by doing** — every week ends in a small project.  
-- **Understand the why** — every concept has a theory note.  
-- **Build for production** — even exercises use real-world patterns.  
+- **Learn by doing** — every week ends in a small project
+- **Understand the why** — every concept has a theory note
+- **Build for production** — even exercises use real-world patterns
 
 ---
 
 ## 🧭 Future Additions
 
-- Spark & PySpark for distributed transformations  
-- Kafka for real-time pipelines  
-- Data quality frameworks (Great Expectations, Soda)  
+- Spark & PySpark for distributed transformations
+- Kafka for real-time pipelines
+- Data quality frameworks (Great Expectations, Soda)
 - Cloud-native DataOps deployment (Terraform + AWS + Snowflake)
 
 ---
@@ -192,13 +177,13 @@ This repo follows these principles:
 Lecturer (Statistics) & Cloud Data Engineer  
 Focused on building scalable, cloud-first data pipelines.
 
-📍 *“Blending traditional rigor with modern engineering.”*
+📍 *"Blending traditional rigor with modern engineering."*
 
 ---
 
 ## 🏁 Final Note
 
-This repository isn’t just a collection of scripts — it’s a **complete professional journey** toward becoming a well-rounded data engineer.  
+This repository isn't just a collection of scripts — it's a **complete professional journey** toward becoming a well-rounded data engineer.  
 Every folder, note, and DAG reflects deliberate practice toward mastering **data flow, transformation, and architecture.**
 
-> If you’re starting your own journey — clone, learn, and build on it.
+> If you're starting your own journey — clone, learn, and build on it.
